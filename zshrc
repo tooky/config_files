@@ -30,3 +30,7 @@ setopt histignoredups
 
 # keep more history
 export HISTSIZE=200
+
+
+export GEM_HOME=/Library/Ruby/Gems/1.8
+export GEM_PATH=/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8

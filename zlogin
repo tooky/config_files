@@ -1,3 +1,5 @@
+export PATH=":/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH:~/src/clojure-extra/sh-script:/usr/local/lib/erlang/lib/rabbitmq-server-1.5.3/scripts"
+
 git_prompt_info() {
   ref=$(git symbolic-ref HEAD 2> /dev/null)
   if [[ -n $ref ]]; then

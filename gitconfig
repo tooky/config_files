@@ -1,5 +1,9 @@
 # ADD LOCAL CONFIGURATION HERE
-
+[user]
+        name = Steve Tooke
+        email = steve.tooke@gmail.com
+[alias]
+        co = checkout
 
 # DO NOT EDIT BELOW THIS LINE
 [color]
