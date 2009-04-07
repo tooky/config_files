@@ -59,11 +59,11 @@ else
 endif " has("autocmd")
 
 if has("folding")
-  set foldenable
-  set foldmethod=syntax
+  set nofoldenable
+  set foldmethod=indent
   set foldlevel=1
-  set foldnestmax=2
-  set foldtext=strpart(getline(v:foldstart),0,50).'\ ...\ '.substitute(getline(v:foldend),'^[\ #]*','','g').'\ '
+  set foldnestmax=10
+  "set foldtext=strpart(getline(v:foldstart),0,50).'\ ...\ '.substitute(getline(v:foldend),'^[\ #]*','','g').'\ '
 
   " automatically open folds at the starting cursor position
   " autocmd BufReadPost .foldo!

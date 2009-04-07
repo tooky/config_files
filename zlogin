@@ -18,7 +18,7 @@ export CLICOLOR=1
 setopt prompt_subst
 
 # prompt
-export PS1='$(git_prompt_info)[${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%~%{$reset_color%}] '
+#export PS1='$(git_prompt_info)[${SSH_CONNECTION+"%{$fg_bold[green]%}%n@%m:"}%{$fg_bold[blue]%}%~%{$reset_color%}] '
 
 # autocompletion for ruby_test
 # works with tu/tf aliases
@@ -47,3 +47,7 @@ _git_remote_branch() {
   fi
 }
 compdef _git_remote_branch grb
+
+# bindkeys
+bindkey ^A beginning-of-line
+bindkey ^E end-of-line
