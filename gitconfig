@@ -1,7 +1,7 @@
 # ADD LOCAL CONFIGURATION HERE
 [user]
         name = Steve Tooke
-        email = steve.tooke@gmail.com
+        email = steve@edendevelopment.co.uk
 [alias]
         co = checkout
 
