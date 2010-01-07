@@ -29,7 +29,9 @@ alias gco='git checkout'
 
 alias cap1="`which cap` _1.4.2_"
 
-alias rf='rake features CUCUMBER_OPTS="-f progress"'
+alias rf='rake features CUCUMBER_OPTS="-f EarlyFailProgress"'
 alias rsf='rake spec && cuc'
 
 alias tag_staged='git tag `date +'staged_%Y_%m_%d_%H%M'` && git push --tag'
+
+alias js='java -jar /usr/local/lib/rhino1_7R2/js.jar'
