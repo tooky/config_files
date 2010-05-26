@@ -6,7 +6,7 @@ alias gen="script/generate"
 alias gadd="git add -u && git add . && git status"
 alias svnprecommit="git svn rebase && rake features && rake test"
 alias hgprecommit="hg pull && rake features && rake test"
-alias cuc="script/cucumber"
+alias cuc="rake cucumber"
 alias g="git"
 alias tu="ruby_test unit"
 alias tf="ruby_test functional"
@@ -27,10 +27,13 @@ alias gb='git branch'
 alias gba='git branch -a'
 alias gco='git checkout'
 
+alias gitx='gitx --all'
+
 alias cap1="`which cap` _1.4.2_"
 
 alias brake='bundle exec rake'
 
 alias tag_staged='git tag `date +'staged_%Y_%m_%d_%H%M'` && git push --tag'
 
-alias js='java -jar /usr/local/lib/rhino1_7R2/js.jar'
+# projects
+alias dressipi='cd ~/Work/dressipi'
