@@ -1,3 +1,5 @@
 .*.sw?
 *.scratch.*
 .DS_Store
+*.un~
+.rvmrc

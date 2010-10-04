@@ -1,3 +1,4 @@
+# MacVim as vim in the terminal
 alias migrate="rake db:migrate db:test:prepare"
 alias remigrate="rake db:migrate && rake db:migrate:redo && rake db:schema:dump db:test:prepare"
 alias ss="script/server"
@@ -32,8 +33,11 @@ alias gitx='gitx --all'
 alias cap1="`which cap` _1.4.2_"
 
 alias brake='bundle exec rake'
+alias b="bundle exec"
 
 alias tag_staged='git tag `date +'staged_%Y_%m_%d_%H%M'` && git push --tag'
 
 # projects
 alias dressipi='cd ~/Work/dressipi'
+alias context='cd ~/Work/contexttravel.com'
+alias moo2='cd ~/Work/moo2'
